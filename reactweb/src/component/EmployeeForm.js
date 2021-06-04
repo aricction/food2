@@ -126,16 +126,7 @@ const EmployeeForm = props => {
       
                  
                  <input  className="btn btn-success" type='submit'  value={ current ? 'Update now' : 'Save now'} />
-                 <FormGroup>
-                       <button className='btn btn-success' type='submit' disabled={loading} 
-                        value={current ? 'update now' : 'save & deliver here'}  >
-                           {loading && (
-                               <span className='spinner-border spinner-border-sm'></span>
-                           )}
-                          <span>save</span>
-                    </button>
-                   </FormGroup>
-
+                
           
            
             {current && (
