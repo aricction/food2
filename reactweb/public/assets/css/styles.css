@@ -1,0 +1,219 @@
+.jumbotron{
+  padding: 70px 30px 10px 30px;
+  margin-top:10px;
+  background:white ;
+}
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px;
+ }
+
+  .row-content {
+    margin: 0px auto;
+    padding: 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+    }
+
+    .address{
+      font-size: 80%;
+      margin: 0px;
+      color: #0f0f0f;
+
+
+    }
+.text3{
+  font-family: gotham;
+  color: #00cecb;
+}
+.text2{
+  font-family: gloss and bloom;
+  color:#0d1010;
+}
+.text{
+
+  font-family: gotham;
+    color:#0d1010;
+
+}
+.bi-plus {
+  font-size: 2.4em;
+  cursor: pointer;
+}
+
+.bi-dash{
+  font-size: 2.4em;
+  cursor: pointer;
+}
+.bi-arrow-up-circle-fill {
+  font-size: 2.4em;
+  cursor: pointer;
+
+}
+.bi-arrow-down-circle-fill{
+  margin-left: 10px;
+  font-size: 2.4em;
+  cursor: pointer;
+}
+.footer{
+
+        margin-top: 10px;
+        background-color: #ced6e0;
+        padding: 20px 0px 20px 0px;
+    }
+    .body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+
+.navbar-dark {
+     background-color: #85EFD8;
+}
+.carousel {
+  background:  }
+
+  .carousel .carousel-item {
+
+    height: 600px;
+
+   }
+
+    .carousel .carousel-item img {
+
+      position: absolute;
+      top: 70;
+      height: 700px; }
+
+      .navbar-nav{
+        margin: 10px;
+      }
+
+      .nav-item{
+      margin-right: 20px;
+      margin-left: inherit;
+      }
+      .modal-header{
+          background-color:  #00cecb;
+          color: floralwhite ;
+
+          .close{
+              color: floralwhite;
+          }
+
+      }
+      .img-fluid img{
+        width: 100%;
+      }
+
+      .home-img img{
+
+
+      }
+
+      .features{
+        margin-top: 140px;
+      }
+      .modal-body{
+          background:#fffdfd;
+      }
+
+
+.bg{
+  background: #00cecb;
+  width:100%;
+  max-height:auto;
+  margin-top:50px;
+}
+
+.menu{
+  margin-top:50px;
+  font-family: gotham;
+
+}
+.card{
+width:400px;
+}
+.card-title{
+
+}
+
+.points {
+  margin-top: 50px;
+}
+.box{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.checkout{
+margin-top: 10px;
+}
+
+.circle{
+
+  width: 75px;
+  border-radius: 50px;
+  box-shadow: 5px 10px 20px #888888;
+  background:white;
+}
+.recipes{
+  margin-top: 150px;
+}
+.recipeButton{
+  padding-top: 20px;
+  margin-top: 50px;
+}
+.radio1{
+  margin-top:20px;
+}
+.card .recipeCard {
+
+    width: 300px;
+    height: 450px;
+    margin: 15px;
+    box-shadow: 5px 10px 18px #888888;
+}
+.img-div{
+  border-radius:10px;
+  border: solid 4px white ;
+}
+.home{
+  background-color:#E6FFF7;
+  height:100%;
+}
+
+.link{
+  color: white;
+}
+.link:hover {
+  text-decoration: none;
+  color: pink;
+}
+
+.cart-counter{
+  display:inline-block;
+  width:20px;
+  opacity:0;
+  height:20px;
+  background:#ddd;
+  text-align:center;
+  border-radius:50%;
+  margin-left:10px;
+  
+}
+
+.feedback {
+  margin-left: 35%;
+  margin-top: 10%;
+}
+
+.feed{
+  
+  box-shadow: 5px 10px 15px #888888;
+  background:white;
+
+}
+.form {
+  background-color: aquamarine;
+}

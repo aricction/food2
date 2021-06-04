@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+<script src="http://localhost:3001/assets/modules/channel-web/inject.js"></script>
+   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="node_modules/bootstrap-social/assets/bootstrap-social.css">
+   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+<script src='accordian.js'></script>
+   <link rel="stylesheet" href="assets/css/styles.css">
+
+
+  </head>
+  <body>
+    <script>
+    window.botpressWebChat.init({
+       host: 'http://localhost:3001',
+       botId: 'foodbot',
+       foregroundColor: '#0176ff',
+       backgroundColor: '#ffffff',
+       botAvatarUrl:null,
+       backgroundColor:'#0f0f0f',
+       showUserName: false,
+       textColorOnForeground:' #9c88ff',
+       enableTranscriptDownload:false,
+       showConversationsButton: true,
+       enableReset: false,
+       extraStylesheet:'http://localhost:3000/modules/assets/examples/my-theme.css'
+
+   })
+
+
+    </script>
+    <script  async  src="https://pay.google.com/gp/p/js/pay.js"  onload="onGooglePayLoaded()">
+
+    function onGooglePayLoaded() {
+     window.googlePayClient = new google.payments.api.PaymentsClient({
+  environment: "TEST"
+});
+}
+    </script>
+
+
+
+    <div id="root"></div>
+
+  
+
+  </body>
+</html>

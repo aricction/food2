@@ -1,0 +1,30 @@
+{
+  "name": "react5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start-server": "node server.js",
+    "reactweb": "npm start --prefix reactweb",
+    "reactwebinstall": "npm install --prefix client",
+    "dev": "concurrently \"npm run start\" \"npm run reactweb\""
+  },
+  "author": "govind",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "botpress": "^0.0.1",
+    "config": "^3.3.6",
+    "dotenv": "^4.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.10",
+    "nodemon": "^2.0.7",
+    "react-redux": "^7.2.4"
+  },
+  "devDependencies": {
+    "concurrently": "^6.1.0"
+  }
+}
